@@ -38,4 +38,14 @@ Here's an example JSON document:
 1. No exception handling is in place.  
 1. Linq2Couchbase is available and would simplify things.  
 
+## Microservices, anyone? ###  
+This I would DEFINITELY do: Take the CRUD operations and create six different microservices:
+1. A microservice for Create.
+1. A microservice to Read *one* item.  
+1. A microservice to Read based on a query.  
+1. A microservice to Read all with paging.  
+1. A microservice to Update one item.  
+1. A microservice to Delete on item.
+
+
 --- END ---
